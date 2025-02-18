@@ -1,1 +1,9 @@
+local args = {
+    [1] = "RolePlayBio",
+    [2] = "💯❗ مًـطِـوٌر آلَـسِـکْـربًـتٌ مًـحًـمًـدٍ❗💯"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1RPNam1eTex1t"):FireServer(unpack(args))
+
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptirqhub/OLKT2/refs/heads/main/afterlua.txt"))()
